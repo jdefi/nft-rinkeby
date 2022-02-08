@@ -1,5 +1,5 @@
 import { ThirdwebProvider, ConnectWallet } from '@3rdweb/react';
-import './App.css';
+import './index.css';
 
 //import component for claim button
 import AuctionComponent from './AuctionListing';
@@ -7,8 +7,7 @@ import AuctionComponent from './AuctionListing';
 const supportedChainIds = [1, 4, 137, 250, 43114, 80001];
 const connectors = {
   injected: {},
-  magic: {
-  },
+
   walletconnect: {},
   walletlink: {
     appName: "nft-rinkeby - demo",
