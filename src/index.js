@@ -14,6 +14,8 @@ const supportedChainIds = [4];
 // In this case, we support Metamask which is an "injected wallet".
 const connectors = {
   injected: {},
+  magic: {
+  },
 walletconnect: {},
     walletlink: {
       appName: "nft-betav1",

@@ -2,7 +2,7 @@ import { ThirdwebProvider, ConnectWallet } from '@3rdweb/react';
 import './App.css';
 
 //import component for claim button
-import AuctionComponent from './AuctionListing'; 
+import AuctionComponent from './AuctionListing';
 
 const supportedChainIds = [1, 4, 137, 250, 43114, 80001];
 const connectors = {
@@ -17,7 +17,7 @@ const connectors = {
   },
 };
 
-function exampleApp() {
+function App() {
   return (
     <ThirdwebProvider
       connectors={connectors}
@@ -29,4 +29,3 @@ function exampleApp() {
   );
 }
 export default App;
-
