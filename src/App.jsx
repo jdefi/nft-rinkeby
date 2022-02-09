@@ -23,7 +23,7 @@ function App() {
       supportedChainIds={supportedChainIds}
     >
       <ConnectWallet />
-      <AuctionComponent /> /*render the claim button*/
+      <AuctionComponent /> {/*render the claim button*/}
     </ThirdwebProvider>
   );
 }

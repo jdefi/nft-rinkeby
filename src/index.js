@@ -5,6 +5,7 @@ import App from './App';
 
 // Import ThirdWeb
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks';
+import { ThirdwebSDK } from "@3rdweb/sdk";
 
 // Include what chains you wanna support.
 // 4 = Rinkeby.
@@ -14,7 +15,7 @@ const supportedChainIds = [4];
 // In this case, we support Metamask which is an "injected wallet".
 const connectors = {
   injected: {},
-  
+
 walletconnect: {},
     walletlink: {
       appName: "nft-betav1",
