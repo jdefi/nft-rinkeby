@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/61802591-25ae-4f8b-85e5-5cf1b20f44c7/deploy-status)](https://app.netlify.com/sites/cocky-cray-06672d/deploys)
 
-# `ethereum-boilerplate-NFT-Marketplace`
+# `ethereum-boilerplate-MEGA-NFT-Marketplace`
 
 This Project is a fork of Ethereum Boilerplate and demostrates how you can build your own NFT Marketplace. This project of course work on any EVM-compatible blockchain such as Polygon, Avalanche, Binance Smart Chain and other such chains.
 
