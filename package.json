@@ -1,50 +1,28 @@
 {
-  "name": "nft-rinkeby",
-  "version": "1.0.0",
   "private": true,
-  "description": "This Project is a fork of Ethereum Boilerplate and demostrates how you can build your own NFT Marketplace.",
-  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@3rdweb/hooks": "^1.9.2",
-    "@3rdweb/react": "^1.9.3",
-    "@3rdweb/sdk": "^1.39.4",
-    "dotenv": "^16.0.0",
-    "ethers": "^5.5.4",
+    "@3rdweb/hooks": "^1.8.0",
+    "@3rdweb/sdk": "^1.36.11",
+    "@sanity/client": "^2.23.2",
+    "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0"
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.16",
-    "ts-node": "^10.5.0",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.1",
+    "tailwindcss": "^3.0.7",
+    "typescript": "4.5.4"
   }
 }
